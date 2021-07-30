@@ -1,6 +1,6 @@
 # SQL Nanodegree
 
-## 1. Deforestation
+## Deforestation
 
 - In this project I learn to do query against deforestation database.
 - The report is compiled as pdf document
