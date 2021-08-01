@@ -9,8 +9,10 @@
   ![Udiddit ERD](/udiddit/ERD.png)
 
 - These are the length of each table after migration <br />
-  select count (_) from users; --11080 <br />
-  select count (_) from topics; --91 <br />
-  select count (_) from posts; -- 49849 <br />
-  select count (_) from votes; -- 498189 <br />
-  select count (\*) from votes; -- 99720
+  ```
+  select count (*) from users; --11077
+  select count (*) from topics; --89
+  select count (*) from posts; -- 49849
+  select count (*) from votes; -- 498186
+  select count (*) from comments; -- 99720
+  ```

@@ -49,7 +49,7 @@ CREATE TABLE votes (
 	created_at INT,
 	updated_at INT
 );
-ALTER TABLE votes ADD CONSTRAINT post_user_only_once UNIQUE (user_id, post_id)
+ALTER TABLE votes ADD CONSTRAINT post_user_only_once UNIQUE (user_id, post_id);
 	
 CREATE TABLE comments (
 	comment_id SERIAL PRIMARY KEY,
